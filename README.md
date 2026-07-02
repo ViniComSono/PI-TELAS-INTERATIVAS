@@ -5,8 +5,8 @@ Projeto Integrador (PI) desenvolvido para o curso de **Ciência da Computação*
 ## 👥 Integrantes
 
 - Pedro
-- Sidney
-- *(seu nome aqui)*
+- Sidney França
+- Vinícius de Souza (eu)
 
 ## 🎯 Sobre o projeto
 
