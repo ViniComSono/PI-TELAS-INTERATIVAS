@@ -60,7 +60,7 @@ O tema central é a **descida progressiva pelo oceano**: a experiência começa 
 - **p5.sound** — reprodução de trilhas sonoras e efeitos sonoros (bolhas)
 - **HTML5 / CSS3 / JavaScript**
 
-## 📁 Organização sugerida de pastas
+## 📁 Organização de pastas
 
 Cada tela final é redirecionada via `window.location.href`, então o projeto é organizado em subpastas, cada uma com seu próprio `index.html`, `sketch.js` (ou `function.js`) e assets:
 
@@ -97,24 +97,3 @@ Cada tela depende de uma trilha sonora e, em alguns casos, imagens de fundo, que
 - `fundo2.jpg` — imagem de fundo das Águas Vivas
 
 > ⚠️ Todas as trilhas sonoras são de jogos/obras de terceiros e foram utilizadas apenas para fins acadêmicos, sem finalidade comercial.
-
-## ▶️ Como executar
-
-1. Clone ou baixe o repositório.
-2. Certifique-se de que todas as pastas de tela contêm os arquivos de áudio/imagem necessários.
-3. Como o projeto usa `loadSound`/`loadImage` (que exigem servidor local por causa de CORS), rode um servidor local na raiz do projeto, por exemplo:
-   ```bash
-   npx serve .
-   ```
-   ou, com Python:
-   ```bash
-   python3 -m http.server
-   ```
-4. Acesse `http://localhost:PORTA` no navegador e clique para iniciar a música e a jornada pela Ilha.
-
-## 💡 Possíveis melhorias futuras
-
-- Adicionar uma tela de créditos com os nomes dos integrantes e fontes das trilhas sonoras
-- Tornar o layout responsivo para dispositivos móveis (atualmente pensado para desktop)
-- Adicionar mais ramificações de história para aumentar a rejogabilidade
-- Unificar a lógica repetida de transição/bolhas em um único arquivo compartilhado entre as telas
