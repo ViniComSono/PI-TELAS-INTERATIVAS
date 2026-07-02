@@ -33,7 +33,7 @@ let tempoTelaFinal = 0;
 
 function preload(){
   musica = loadSound("zelda3.mp3");
-  bolhas = loadSound("/Spongebob Bubble.mp3");
+  bolhas = loadSound("../Spongebob Bubble.mp3");
 }
 
 function transition(choice){
@@ -80,10 +80,10 @@ function transition(choice){
 
     if(tempoTelaFinal > 30){
       if(choice == 0){
-          window.location.href = "/CARDUME/index.html";
+          window.location.href = "../CARDUME/index.html";
       }
       if(choice == 1){
-          window.location.href = "/AGUAS VIVAS/index.html";
+          window.location.href = "../AGUAS VIVAS/index.html";
       }
     }
   } 

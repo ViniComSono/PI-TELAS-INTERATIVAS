@@ -24,7 +24,7 @@ let buttonRight;
 
 function preload(){
     musica = loadSound("Maridia (Swampy Caverns).mp3");
-    bolhas = loadSound("/Spongebob Bubble.mp3");
+    bolhas = loadSound("../Spongebob Bubble.mp3");
 }
 
 function drawChoices(button){
@@ -156,10 +156,10 @@ function transition(choice){
 
         if(tempoTelaFinal > 30){
             if(choice == 0){
-                window.location.href = "/MONSTRO DOS MARES/index.html";
+                window.location.href = "../MONSTRO DOS MARES/index.html";
             }
             if(choice == 1){
-                window.location.href = "/PEIXE DIABO/index.html";
+                window.location.href = "../PEIXE DIABO/index.html";
             }
         }
     }

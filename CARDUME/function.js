@@ -21,7 +21,7 @@ let fishes = [], raio, transp, verificationCircle = false, waveX, waveY, musica;
 function preload(){
     musica = loadSound("DonkeyKongCountry.mp3");
     fundo = loadImage("fundo.png");
-    bolhas = loadSound("/Spongebob Bubble.mp3");
+    bolhas = loadSound("../Spongebob Bubble.mp3");
 }
 
 function transition(choice){
@@ -63,7 +63,7 @@ function transition(choice){
 
         if(tempoTelaFinal > 30){
             if(choice == 0){
-                window.location.href = "/index.html";
+                window.location.href = "../index.html";
             }
         }
     }

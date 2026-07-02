@@ -32,7 +32,7 @@ function setup() {
 
 function preload(){
     musica = loadSound("Lake Verity.mp3");
-    bolhas = loadSound("/Spongebob Bubble.mp3");
+    bolhas = loadSound("Spongebob Bubble.mp3");
 }
 
 function drawChoices(button){
@@ -93,11 +93,11 @@ function transition(choice){
         if (tempoTelaFinal > 30) {
 
         if (choice == 0) {
-        window.location.href = "/PROFUNDEZAS/index.html";
+        window.location.href = "PROFUNDEZAS/index.html";
           }
     
         else if (choice == 1) {
-              window.location.href = "/AGUAS RASAS/index.html";
+              window.location.href = "AGUAS RASAS/index.html";
           }
       }
     }

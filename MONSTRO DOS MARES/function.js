@@ -15,7 +15,7 @@ let buttonCenter;
 
 function preload(){
     musica = loadSound("DokiDokiLiteratureClub!.mp3");
-    bolhas = loadSound("/Spongebob Bubble.mp3");
+    bolhas = loadSound("../Spongebob Bubble.mp3");
 }
 
 function setup() {
@@ -94,7 +94,7 @@ function transition(choice){
 
         if(tempoTelaFinal > 30){
             if(choice == 0){
-                window.location.href = "/index.html";
+                window.location.href = "../index.html";
             }
         }
     }
